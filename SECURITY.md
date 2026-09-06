@@ -2,7 +2,7 @@
 
 Virtual Library is provided for independent maintenance. There is no dedicated upstream security response service or response-time commitment. A fork that accepts reports should publish its own private security contact and supported-version policy.
 
-If you find a vulnerability, avoid posting credentials, private documents, browser-storage dumps, or exploit details to public issues. Contact the operator of the affected deployment through an established private channel. For a dependency vulnerability, use that dependency's documented security reporting process.
+For vulnerabilities in Virtual Library, use [GitHub's private vulnerability reporting form](https://github.com/mabijaoude/virtual-library/security/advisories/new). Avoid posting credentials, private documents, browser-storage dumps, or exploit details to public issues. For deployment-specific concerns, contact the operator through an established private channel. For a dependency vulnerability, use that dependency's documented security reporting process.
 
 ## Before distributing a fork
 

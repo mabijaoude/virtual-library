@@ -1,6 +1,6 @@
 # Forking and independent maintenance
 
-Virtual Library is published for self-directed forks and independent modification. This repository does not provide individual support, accept feature requests or pull requests, or operate public issue and discussion forums.
+Virtual Library is published for self-directed forks and independent modification. [GitHub Issues](https://github.com/mabijaoude/virtual-library/issues) is open for bug reports and feature suggestions. Search existing issues first; for bugs, include your browser, device, reproduction steps, and expected behavior. Individual support and implementation timelines are not guaranteed. The repository does not accept pull requests or operate a discussion forum.
 
 When maintaining a fork, keep shared application changes content-neutral. Do not commit copyrighted books, personal catalogue data, private network addresses, credentials, deployment secrets, or machine-specific paths.
 

@@ -220,7 +220,7 @@ This project focuses on Markdown and static hosting. It has no built-in PDF/EPUB
 
 ## Forking and licenses
 
-Virtual Library is offered for independent forks and modification. The upstream does not provide individual support or accept feature requests or pull requests. [FORKING.md](FORKING.md) explains the maintenance workflow; [SECURITY.md](SECURITY.md) explains how to handle sensitive findings in your own distribution.
+Virtual Library is offered for independent forks and modification. Use [GitHub Issues](https://github.com/mabijaoude/virtual-library/issues) to report bugs or suggest features. Individual support and implementation timelines are not guaranteed, and the upstream does not accept pull requests. [FORKING.md](FORKING.md) explains the maintenance workflow; [SECURITY.md](SECURITY.md) explains how to report sensitive findings privately.
 
 Software is licensed under **[MIT](LICENSE)**. Project-created visual assets use **[CC BY 4.0](LICENSE-ASSETS.md)** unless identified otherwise. Third-party assets retain the terms in [Asset provenance](ASSET_LICENSES.md), and software dependencies retain their [third-party notices](THIRD_PARTY_NOTICES.md). These notices are also included in the built site.
 
