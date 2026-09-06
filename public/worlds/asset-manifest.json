@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generator": "Virtual Library Three.js scene capture",
+  "license": "Project-generated",
+  "assets": [
+    {
+      "world": "heritage",
+      "file": "previews/heritage.webp",
+      "bytes": 14854,
+      "sha256": "f5ed5c928629d536e03fd0cf4c2f4793cce5e715d5f3df23a6fb2edd24c865a9"
+    },
+    {
+      "world": "gothic",
+      "file": "previews/gothic.webp",
+      "bytes": 12028,
+      "sha256": "dd4262aa6c0d0b8645bcf7a57a3a2d99e710cec1d25c4700764c042d19aaf8a3"
+    },
+    {
+      "world": "modern",
+      "file": "previews/modern.webp",
+      "bytes": 31144,
+      "sha256": "adab564169ef3be022225e6002796756e5833157381ad7a581090a32a17b6859"
+    },
+    {
+      "world": "renaissance",
+      "file": "previews/renaissance.webp",
+      "bytes": 21274,
+      "sha256": "41e9bd6c968a07ddd0b17bd22dd5d604f5d166bc86e5f1a4da3eefa5238df69a"
+    },
+    {
+      "world": "deco",
+      "file": "previews/deco.webp",
+      "bytes": 18836,
+      "sha256": "74732485bf649fdb9840b9743d67e2f52b47c24de66c096ec44c6d1d480c9538"
+    },
+    {
+      "world": "foundry",
+      "file": "previews/foundry.webp",
+      "bytes": 15352,
+      "sha256": "10125aed1ad430e5c354a3b8a7288fa32a4df56c0a5554103e354b670275c161"
+    },
+    {
+      "world": "lunar",
+      "file": "previews/lunar.webp",
+      "bytes": 12526,
+      "sha256": "193c1e9d1bef94ccc5cad9f9096f872323470d8355c2a1797b1e6fd0e038e1c5"
+    },
+    {
+      "world": "arkship",
+      "file": "previews/arkship.webp",
+      "bytes": 9204,
+      "sha256": "ef30fa4b08aca9b1c8a4374195a4bc1f972238297298dca0cb9bba06263d2526"
+    },
+    {
+      "world": "alexandria",
+      "file": "previews/alexandria.webp",
+      "bytes": 13026,
+      "sha256": "130cce68075e92852ca388327be65d65b73ae1e1bf12cd1e24d9cf75278d091e"
+    }
+  ]
+}

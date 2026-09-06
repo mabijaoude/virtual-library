@@ -1,0 +1,63 @@
+{
+  "name": "virtual-library",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@11.16.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "type": "module",
+  "scripts": {
+    "verify": "pnpm check:release && pnpm check:privacy && pnpm check:licenses && git lfs fsck && pnpm test && pnpm build && pnpm perf:budget",
+    "check:release": "node scripts/check-release.mjs",
+    "check:privacy": "node scripts/check-privacy.mjs",
+    "check:history": "node scripts/check-privacy.mjs --history",
+    "check:licenses": "node scripts/dependency-notices.mjs",
+    "notices:update": "node scripts/dependency-notices.mjs --write",
+    "release:snapshot": "node scripts/release-snapshot.mjs",
+    "prepare-library": "node scripts/prepare-library.mjs",
+    "assets:art": "node scripts/process-world-art.mjs",
+    "assets:fetch": "node scripts/fetch-world-assets.mjs",
+    "assets:materials": "node scripts/process-runtime-materials.mjs",
+    "assets:space": "node scripts/process-space-assets.mjs",
+    "assets:optimize": "node scripts/optimize-world-assets.mjs",
+    "assets:previews": "node scripts/process-world-previews.mjs",
+    "assets:sync-transforms": "node scripts/sync-world-transforms.mjs",
+    "dev": "node scripts/prepare-library.mjs && vite --host 127.0.0.1",
+    "build": "node scripts/prepare-library.mjs && tsc && vite build",
+    "perf:budget": "node scripts/check-performance-budgets.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.2",
+    "@react-three/postprocessing": "^3.0.4",
+    "@tanstack/react-virtual": "3.13.12",
+    "@vitejs/plugin-react": "^5.1.1",
+    "dompurify": "3.4.13",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "3.15.1",
+    "lucide-react": "^0.562.0",
+    "marked": "^17.0.1",
+    "minisearch": "^7.2.0",
+    "postprocessing": "^6.39.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "three": "^0.182.0",
+    "vite": "^7.3.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "4.4.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.185.0",
+    "fflate": "0.8.3",
+    "gltf-validator": "2.0.0-dev.3.10",
+    "jpeg-js": "^0.4.4",
+    "sharp": "0.35.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  }
+}

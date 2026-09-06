@@ -1,0 +1,1216 @@
+{
+  "version": 1,
+  "generatedBy": "scripts/fetch-world-assets.mjs",
+  "policy": "CC0 and project-generated assets only; no runtime remote URLs.",
+  "records": [
+    {
+      "id": "Wood051",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Wood 051",
+      "sourceUrl": "https://ambientcg.com/a/Wood051",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=Wood051_1K-JPG.zip",
+        "bytes": 6712631,
+        "sha256": "debf3d60f69a09c30613dc95a94da49c8116160ab8a29f77ac8e32cc33f1a1c3"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG.usdc",
+          "bytes": 2882,
+          "sha256": "181cffa09530aaa378df65d9bf82fdac025191d672c8917aea017c5347442d51"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG_Color.jpg",
+          "bytes": 871537,
+          "sha256": "f3c6c5456457e8d05c1fee4d2f186f41d0aea2b8a06859b69ce2934e11aa8798"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG_Displacement.jpg",
+          "bytes": 604880,
+          "sha256": "a852d76befbdb66cf17f1b4a18663f4b1fb2c0de03929a4c74752a688e23ff10"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG_NormalDX.jpg",
+          "bytes": 1586919,
+          "sha256": "d7150fef4d516fecfb2e48eb956aa2c8e52dd40802910fb78c40674d8cd29f0e"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG_NormalGL.jpg",
+          "bytes": 1583401,
+          "sha256": "9078dc50c43b55831ae322460fc96b62df68c7a148400bd7755ab2788fec1708"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG_Roughness.jpg",
+          "bytes": 680793,
+          "sha256": "b5736b940d721b49922cb14eebd52fd34f134b7ef99331ecf28565ce40358098"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG.blend",
+          "bytes": 1098996,
+          "sha256": "10120b963de67d27dc958388d7027c5040aaed34abb329802bedff6d822107b8"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG.mtlx",
+          "bytes": 2242,
+          "sha256": "4c885e542e39286899debaf2479b0d5013852a384a47cf738181f55d268294d4"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG.tres",
+          "bytes": 800,
+          "sha256": "3a7b8cb90409603ba491263947d01a81c8fbbf353033e1989e252a67b3959006"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Wood051/Wood051.png",
+          "bytes": 278339,
+          "sha256": "75b788b79fd763dc333713d0aa491f0ff2358222d096e579fc3ed9d512c5a77b"
+        }
+      ]
+    },
+    {
+      "id": "WoodFloor051",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Wood Floor 051",
+      "sourceUrl": "https://ambientcg.com/a/WoodFloor051",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=WoodFloor051_1K-JPG.zip",
+        "bytes": 5104319,
+        "sha256": "3f493484eab1ec5e1c466b90e515003b286fc6d7f84ff8ff6485900bfc26cef5"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG.usdc",
+          "bytes": 2983,
+          "sha256": "0c55354b45eb6d3855368b4e6f47ea5a5c66e35b04175a8ca2ece46a44e1866e"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG_AmbientOcclusion.jpg",
+          "bytes": 131406,
+          "sha256": "cb5ad1e1443a47f4b1bbfc94e8e1c2668cd14e7e925fad6e0c568082978c0bed"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG_Color.jpg",
+          "bytes": 1047153,
+          "sha256": "ffbe4de8765619f278c5f819cd751e003808fa671eb99603abdf82b94ca85e9a"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG_Displacement.jpg",
+          "bytes": 512771,
+          "sha256": "d4f78fb95dec13330d0d3ea6ab6d9b01c01576f090e993b49c41dca535747bde"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG_NormalDX.jpg",
+          "bytes": 789311,
+          "sha256": "7b7e5c50009bae2bb78ce5dff3cf4941932228be76f8e891a2eda7578aafceb0"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG_NormalGL.jpg",
+          "bytes": 784277,
+          "sha256": "5b026049b8a2d84c5b135d0880563dcd555c5cdcac71d0101ee47cedc562022e"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG_Roughness.jpg",
+          "bytes": 455503,
+          "sha256": "967f0339ee6762fc0a40b222ed9801a37c626090f236f51b294878845ed38559"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG.blend",
+          "bytes": 1109220,
+          "sha256": "07c6d40204b56b2c4433069f1234bfdb8142822eedf9935211eb340d9f5bd08b"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG.mtlx",
+          "bytes": 2317,
+          "sha256": "c5c87ce1b91b0980553550841b14d0b00e82dfa9b69459304078223f623f34f3"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051_1K-JPG.tres",
+          "bytes": 1035,
+          "sha256": "1c41cbb6a5e3056ef008b676e26e2a7d7fc331275cdebc19c2fb7de92b234d39"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/WoodFloor051/WoodFloor051.png",
+          "bytes": 265985,
+          "sha256": "71de4c616cdef3d1ecfd7ee2ab5708c60f92c5da8b7eefca104c2e287e56f726"
+        }
+      ]
+    },
+    {
+      "id": "Travertine009",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Travertine 009",
+      "sourceUrl": "https://ambientcg.com/a/Travertine009",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=Travertine009_1K-JPG.zip",
+        "bytes": 3292870,
+        "sha256": "09fa1ce1cd590e87ed4053864ebaf0186718fba6373559a8458eb4fa6146fdb7"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG.usdc",
+          "bytes": 3013,
+          "sha256": "3f09751cc48da1db89ea8ada94cd174269ad95a71ac494ca8e4aceecf1732691"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_AmbientOcclusion.jpg",
+          "bytes": 37077,
+          "sha256": "6333a47aa0ee5007da41f095aad67536658a68cdd88a3d21e7dd4469fdb6389b"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_Color.jpg",
+          "bytes": 922573,
+          "sha256": "6561c87d92aef321aef4095fbcc5518cec4d711e642be6beaa90d13829e6cd2b"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_Displacement.jpg",
+          "bytes": 18358,
+          "sha256": "b5cea447474af23e9b77ea685afa68e56d8aff976987fd10cc9e52ef2d656342"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_NormalDX.jpg",
+          "bytes": 332192,
+          "sha256": "f7247a45332f28629192c2b39ba8f8427d2ed2cc15f1cdb2d95bc9b094b38409"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_NormalGL.jpg",
+          "bytes": 332407,
+          "sha256": "635256a78537253a2d2bc5fef5fcda6e4e03349b960c57f15cf721b7cf5ba098"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_Roughness.jpg",
+          "bytes": 298778,
+          "sha256": "f4094c2149e257f4b6e17e5c5da70101fcbffaf0ce4016ab5d6aac7e45112e37"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG.blend",
+          "bytes": 1109636,
+          "sha256": "c7c3d175cbbeee72709de2ed423b33750e62111995478d6e64deb11ca0ada9eb"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG.mtlx",
+          "bytes": 2332,
+          "sha256": "230565ed0a7aadd394f33d849ecf07a54cfbc330c6120f5ef909049ee9e3d96b"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG.tres",
+          "bytes": 1040,
+          "sha256": "0d67145caa643aa71d0b838aa7245b3a051cfd5f10ab0b840228ac5d31f698a9"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009.png",
+          "bytes": 233214,
+          "sha256": "ff77ed26c5cf61b4ec381af0c202f99f1e2628bd09a0e9e82b58bc41bfede557"
+        }
+      ]
+    },
+    {
+      "id": "Plaster001",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Plaster 001",
+      "sourceUrl": "https://ambientcg.com/a/Plaster001",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=Plaster001_1K-JPG.zip",
+        "bytes": 7414156,
+        "sha256": "944b4831016e42ace4a89422e4e7190912ca2f7fed6f561354c48ec7bb54d3a4"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG.usdc",
+          "bytes": 2903,
+          "sha256": "e7ef702d538ff062991841ac0a30fd976e7563cfbac054f11430aca6b577a9e6"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_Color.jpg",
+          "bytes": 828790,
+          "sha256": "d3fe43282859ab7293ad41f2fa3c29f02df077e5bc326cf90a65cc588a4ac5a4"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_Displacement.jpg",
+          "bytes": 601909,
+          "sha256": "e022a44a2c2ce246de96594f0b7c75371ddd9f68a308d2bcb433131df76a278e"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_NormalDX.jpg",
+          "bytes": 2088321,
+          "sha256": "375ccc54c86012707f3ee3bcff4f5124ba3987db1fd4b93909acac5b8c946730"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_NormalGL.jpg",
+          "bytes": 2091491,
+          "sha256": "ea293c335a0b9243f0a825573b81304b8f99e60b2c067e493d0792adf96dfc72"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_Roughness.jpg",
+          "bytes": 367391,
+          "sha256": "6028dbe3cb2ea250eacf3fb87d2c4e5ae8c2a7ff10ecad7883c27d721f2f8e88"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG.blend",
+          "bytes": 1099204,
+          "sha256": "218a112bc33e240da60c298b737c62afa10c5c1f19824ebcf4864f2bf6fb925b"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG.mtlx",
+          "bytes": 2287,
+          "sha256": "17ab8a95dc4e22f0f5557fbdb4462a399f8f9ff5d7d5820be3426ffaef634f0f"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG.tres",
+          "bytes": 812,
+          "sha256": "c8eaa0619c4357885dada558611629a46e5145a5c9d2366dcbb1d659a845efb3"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001.png",
+          "bytes": 329146,
+          "sha256": "1b0c084b8ecc1d46b6f2631188f63755caaa82edb05593ae640c5a886c6f74fe"
+        }
+      ]
+    },
+    {
+      "id": "GlazedTerracotta001",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Glazed Terracotta 001",
+      "sourceUrl": "https://ambientcg.com/a/GlazedTerracotta001",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=GlazedTerracotta001_1K-JPG.zip",
+        "bytes": 4407800,
+        "sha256": "54f921a07013a89066774f94d51837aa8258b1bfcf293c90cd652a37e3a0f66d"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG.usdc",
+          "bytes": 2882,
+          "sha256": "ecff2c56b5ea8663601603e3d4eb997e21da111513de4192deab4716d0a6da9d"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG_Color.jpg",
+          "bytes": 738218,
+          "sha256": "42467f643d2fe0129025b51ef4a263a48770e9329ceb18b6e1f5bcf6629f63ec"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG_Displacement.jpg",
+          "bytes": 194554,
+          "sha256": "51a234af1cf47519c9ac3626eca79c221b31ae1c1f6d0044e63fe85a309b5d8d"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG_NormalDX.jpg",
+          "bytes": 836232,
+          "sha256": "336cc41fe1a272a0ab9a932d1bfd5e4e399344adeb76d92ade7d10055fead498"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG_NormalGL.jpg",
+          "bytes": 835795,
+          "sha256": "80c2a614a5ad0d4b2d1d5a9c430835cecfa87961a02a6fc0e3e857a6b82980fa"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG_Roughness.jpg",
+          "bytes": 403044,
+          "sha256": "4496b7ab830748ecb1681b913b110e6abb73fa663223846c7815674ebfc36327"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG.blend",
+          "bytes": 1098788,
+          "sha256": "fa81d4794a436e06b5ef6da751df300ae21866e67687bd08b2c946a703e0ebaf"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG.mtlx",
+          "bytes": 2422,
+          "sha256": "a786d3b7600990c84ce0a1d66ab254f0e1998c053244fc570766af97eec177c6"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001_1K-JPG.tres",
+          "bytes": 848,
+          "sha256": "7f247d510a1e4fd628ef229b1d85a0f5e72b532fc7e07aca714220515526f694"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/GlazedTerracotta001/GlazedTerracotta001.png",
+          "bytes": 292689,
+          "sha256": "6e58b50b9b1367764563e4a5dff65045f33419a6bf32f4194ccca728cbd11e17"
+        }
+      ]
+    },
+    {
+      "id": "Metal063",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Metal 063",
+      "sourceUrl": "https://ambientcg.com/a/Metal063",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=Metal063_1K-JPG.zip",
+        "bytes": 5620613,
+        "sha256": "cc0a7f83d4bfd6c5d38638d17a0c214a004ccd295b8c554c959537bc278167ed"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG.usdc",
+          "bytes": 3150,
+          "sha256": "2ee41d98f2f9b24e7c7b68769fb7b4a11a6b714ea5a433fde4f8d0aefce6bc64"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_Color.jpg",
+          "bytes": 1259638,
+          "sha256": "d4122954971c26b529614f39fb12310de00005d44ce103430c35132f61fca077"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_Displacement.jpg",
+          "bytes": 770082,
+          "sha256": "81e1cb4c96d23890c7626d44b705656c54c095a44fd1c8d72242d5d2265ac817"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_Metalness.jpg",
+          "bytes": 737142,
+          "sha256": "1bd888a9fa307197fd5eaaa883561cfd8350ae634fce0d378e83b8e05632daf8"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_NormalDX.jpg",
+          "bytes": 343435,
+          "sha256": "f8047e9357a2a02be152f81e30dd5290e19f3ecc33b9dadfed9835d707a56c84"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_NormalGL.jpg",
+          "bytes": 343987,
+          "sha256": "51e521e2fafd01387216b52fce315e2f094a1fa6efab77a92e2c79870bb2df01"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_Roughness.jpg",
+          "bytes": 731180,
+          "sha256": "e83993283739d0a5d350ecd15cf82969aa59ec6e2293bcc6a14aea8a92ba283d"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG.blend",
+          "bytes": 1111876,
+          "sha256": "b53b45cf423c4c23d413a81b4d3702d57219977b2c5beb8c01f906abd081af66"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG.mtlx",
+          "bytes": 2595,
+          "sha256": "77b4b78719d70102fb933e902de88fa2da0d0b8e4b645445320a416c1daa161c"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG.tres",
+          "bytes": 1003,
+          "sha256": "7535e900dc1883975d9a8743ad887335c3f31e8fa3f38066b92929d114fea059"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Metal063/Metal063.png",
+          "bytes": 314455,
+          "sha256": "654a65a825f2cb442530daf0b819084f8794cf92c2d0b4f20c49b2e456dc2d18"
+        }
+      ]
+    },
+    {
+      "id": "Leather037",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Leather 037",
+      "sourceUrl": "https://ambientcg.com/a/Leather037",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=Leather037_1K-JPG.zip",
+        "bytes": 7323418,
+        "sha256": "7ec86a1e5e4a1a8ddf1db9bf999dd3f495eaa109b72406d7ff2eb65f1b6775fc"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG.usdc",
+          "bytes": 2880,
+          "sha256": "1087ab1f53a0eca45dd5fd96e754981ab3d4fdd9faf47566dc48840fa5776e36"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG_Color.jpg",
+          "bytes": 583727,
+          "sha256": "e1033ea8a95a313bdd80ea52aa04b1eee9a8934f1c695430408dacfc8636cc1a"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG_Displacement.jpg",
+          "bytes": 884510,
+          "sha256": "80d4f8493847fdcb356f8180bcc0458b1edd648d726037b09cd8b5bd0d35b056"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG_NormalDX.jpg",
+          "bytes": 1818518,
+          "sha256": "12c8aac440fbbb976e5f1d3827a4069f02b0cf2fdfac5adb95514a386075abcb"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG_NormalGL.jpg",
+          "bytes": 1820470,
+          "sha256": "b0684254670e067d88fa89d04b1dabb832e4652246c7e3878604c713eecd50f7"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG_Roughness.jpg",
+          "bytes": 728299,
+          "sha256": "b67300743ff88fe4aafd0d303997d9acaa7f2f730262a3079814d5b673721e46"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG.blend",
+          "bytes": 1098996,
+          "sha256": "ca80e3509a2e0f8b2ffc1bf631800ae8331db21eba4a8498db4e830a03ca36e4"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG.mtlx",
+          "bytes": 2287,
+          "sha256": "367089ce100990fe9f66806f3fed7315c787a6bfbdcef5d7ea6c637d99ce3798"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG.tres",
+          "bytes": 812,
+          "sha256": "ea0a9aa1f7a3acd670d2e9ba770c6d19ffaf6cb33326c8b7909eaf7dfef6cdca"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Leather037/Leather037.png",
+          "bytes": 381111,
+          "sha256": "71cd1d2892f33e24b892bed72643598201277ade2b62c4360bd9453d8d31864d"
+        }
+      ]
+    },
+    {
+      "id": "Concrete034",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Concrete 034",
+      "sourceUrl": "https://ambientcg.com/a/Concrete034",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=Concrete034_1K-JPG.zip",
+        "bytes": 3657575,
+        "sha256": "5839d284d94ffb8d2a56df742ec522b13dd311c52dbd42b8fd33f0409ceedb81"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG.usdc",
+          "bytes": 2907,
+          "sha256": "77ca1e97b3d3a7d0ca1861d9270e4a2c8c1f862fa2161766228bdaf53d89ec52"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG_Color.jpg",
+          "bytes": 269501,
+          "sha256": "8ceb9186d990b31fce785e06fdc6974c160f1d27c43f6160266f164deba713aa"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG_Displacement.jpg",
+          "bytes": 189234,
+          "sha256": "136226ea667221e6a62ce23853148ecda4309222c1dea253fa6245709ded9a8a"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG_NormalDX.jpg",
+          "bytes": 822978,
+          "sha256": "b74da5fbc5f2d36f51f78fcf1064d60d872e31e7bb46beed6bc3107d37eabbe4"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG_NormalGL.jpg",
+          "bytes": 821681,
+          "sha256": "e509eb9dfa978e780fbebfd2acacc2ce158b5b7ced722ddc0759039dd51e18ca"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG_Roughness.jpg",
+          "bytes": 217708,
+          "sha256": "a4a9e39857a19afd23a778e5abf44fcdf6bd7f93918f1cf6878b41933e553511"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG.blend",
+          "bytes": 1099204,
+          "sha256": "af71e03f0c64564b2008552f3d294f145c5d90d7b00b94dac0969a72782583d3"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG.mtlx",
+          "bytes": 2302,
+          "sha256": "f3caf9023dfdedd850ec81ccffefd1d68c6f83ea02ef5479776c0656b55e6336"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG.tres",
+          "bytes": 816,
+          "sha256": "5e63e4936898d527ad0a40850272dbeb64139449d6142b69811775b8636f7aad"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034.png",
+          "bytes": 229324,
+          "sha256": "1791296c8f27af6e41d6b33d11810cbe6d5d7bc0fa7375a16ce9f8a576274bf0"
+        }
+      ]
+    },
+    {
+      "id": "Marble012",
+      "kind": "pbr-material",
+      "provider": "ambientCG",
+      "title": "Marble 012",
+      "sourceUrl": "https://ambientcg.com/a/Marble012",
+      "license": "CC0-1.0",
+      "author": "ambientCG / Lennart Demes",
+      "archive": {
+        "url": "https://ambientcg.com/get?file=Marble012_1K-JPG.zip",
+        "bytes": 4672904,
+        "sha256": "b04384c6d49ce73baeb70db7ea4abfe9948fc9b74b9fd92c3766970662bf2c43"
+      },
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG.usdc",
+          "bytes": 2901,
+          "sha256": "2cfea44b1df7ac7d206118855e9da2d355330a45d52527aac254c70cba9dee23"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG_Color.jpg",
+          "bytes": 1220876,
+          "sha256": "a34b55c889c6b3819d2c351b6409bfd0baf0a0a55b073441850627dfebcdcd1e"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG_Displacement.jpg",
+          "bytes": 790392,
+          "sha256": "c074259c93ed0f9964a2eedb38f3c78321a7c46f5650832bbb7a8e4120dec0fa"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG_NormalDX.jpg",
+          "bytes": 343770,
+          "sha256": "1b0a67a97bf6a8f9fb4a39b53c77196f22a288ecbe224b481f4cb915f4515354"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG_NormalGL.jpg",
+          "bytes": 342955,
+          "sha256": "2e9a56525ffbb7e80854b19985a5c921f91192698ea337f4834192479ba0063b"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG_Roughness.jpg",
+          "bytes": 535814,
+          "sha256": "f7afd636d6cca0b470549959c514976186df58ac1013016b6c3919910a6d3a04"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG.blend",
+          "bytes": 1099204,
+          "sha256": "f12de3691070c93c9fc2996b0193c437d525e30db2b3c620da55ed02fc0a6f5a"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG.mtlx",
+          "bytes": 2272,
+          "sha256": "ef816adbbd5d316aff2f3ca16988b658dde283f321c41236119206d91ccdf814"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG.tres",
+          "bytes": 808,
+          "sha256": "ff8469432d022b5d40bc67c570fad3f1e546e0c903afa12021140f6878447cc3"
+        },
+        {
+          "file": ".asset-cache/worlds/ambientcg/Marble012/Marble012.png",
+          "bytes": 332034,
+          "sha256": "1786e5bf4904c009001d8f58627e3463b14c6bdf63b8e924c03259207d702bd2"
+        }
+      ]
+    },
+    {
+      "id": "entrance_hall",
+      "world": "heritage",
+      "kind": "hdri",
+      "provider": "Poly Haven",
+      "title": "entrance hall",
+      "sourceUrl": "https://polyhaven.com/a/entrance_hall",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "file": ".asset-cache/worlds/polyhaven/hdris/entrance_hall_1k.hdr",
+      "bytes": 1621287,
+      "sha256": "33a4537d666e156f19b0e47c8a2d56ee52d48dfa52d46b04fbbca617c97aee80",
+      "upstreamMd5": "0a7355285e1c7f5e9a4cd368b15fc2cf"
+    },
+    {
+      "id": "blaubeuren_night",
+      "world": "gothic",
+      "kind": "hdri",
+      "provider": "Poly Haven",
+      "title": "blaubeuren night",
+      "sourceUrl": "https://polyhaven.com/a/blaubeuren_night",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "file": ".asset-cache/worlds/polyhaven/hdris/blaubeuren_night_1k.hdr",
+      "bytes": 1820806,
+      "sha256": "1df5631d19df9b1a1eb176b19a1faf6a307c5576f295a0384a51200870c2cb46",
+      "upstreamMd5": "893cae7964396a4ce2b81c9b06ba5479"
+    },
+    {
+      "id": "glasshouse_interior",
+      "world": "modern",
+      "kind": "hdri",
+      "provider": "Poly Haven",
+      "title": "glasshouse interior",
+      "sourceUrl": "https://polyhaven.com/a/glasshouse_interior",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "file": ".asset-cache/worlds/polyhaven/hdris/glasshouse_interior_1k.hdr",
+      "bytes": 1636636,
+      "sha256": "b15f510134f09a63409f063151f9d650f0265b5c6a3f92c1533e4efad5ac8235",
+      "upstreamMd5": "62c5f72cb07a12e33aa5a4c54866a888"
+    },
+    {
+      "id": "courtyard",
+      "world": "renaissance",
+      "kind": "hdri",
+      "provider": "Poly Haven",
+      "title": "courtyard",
+      "sourceUrl": "https://polyhaven.com/a/courtyard",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "file": ".asset-cache/worlds/polyhaven/hdris/courtyard_1k.hdr",
+      "bytes": 1716791,
+      "sha256": "aa4197f6136a70ea01eca5dadb0cca70633557f1ed98e2599917019e03d94526",
+      "upstreamMd5": "c9f92690f97deab491c5f97dd652cee2"
+    },
+    {
+      "id": "dresden_station_night",
+      "world": "deco",
+      "kind": "hdri",
+      "provider": "Poly Haven",
+      "title": "dresden station night",
+      "sourceUrl": "https://polyhaven.com/a/dresden_station_night",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "file": ".asset-cache/worlds/polyhaven/hdris/dresden_station_night_1k.hdr",
+      "bytes": 1744020,
+      "sha256": "dc4e77f2cb039118e88e67d21410b676046b85169aa1d59982db137aeb9cf173",
+      "upstreamMd5": "69a3138edfa2905b17777929fd868a35"
+    },
+    {
+      "id": "boiler_room",
+      "world": "foundry",
+      "kind": "hdri",
+      "provider": "Poly Haven",
+      "title": "boiler room",
+      "sourceUrl": "https://polyhaven.com/a/boiler_room",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "file": ".asset-cache/worlds/polyhaven/hdris/boiler_room_1k.hdr",
+      "bytes": 1709233,
+      "sha256": "9faea542579ab959d378ff534a6178d1d9e95a4daba082ade93d28936e4f08da",
+      "upstreamMd5": "d0949aff31c4875691863aa00f02173d"
+    },
+    {
+      "id": "ArmChair_01",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "ArmChair 01",
+      "sourceUrl": "https://polyhaven.com/a/ArmChair_01",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/ArmChair_01/ArmChair_01_1k.gltf",
+          "bytes": 2643,
+          "sha256": "91e39d5b35f36c8074b7b6432f6fd77f5f1a257c4d6af3924c0b263eb674286b",
+          "upstreamMd5": "39d1e4b0ffdde688c98335c9621e3aae"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/ArmChair_01/textures/Armchair_01_diff_1k.jpg",
+          "bytes": 184246,
+          "sha256": "db30fc9ab61ac50c91ab7573583d2855a2910df1ecade02b89e3e8ab8d4e4c2d",
+          "upstreamMd5": "9166f2c24f2114a5fa5513950ed9b9ae"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/ArmChair_01/ArmChair_01.bin",
+          "bytes": 154012,
+          "sha256": "42a4206ea8bb3f7c3c1500ca3e408e084e8687cd3cc9cbf095b3344e215e0db6",
+          "upstreamMd5": "fbd842795fdec75d94f1335c28acfc0e"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/ArmChair_01/textures/Armchair_01_nor_gl_1k.jpg",
+          "bytes": 289916,
+          "sha256": "f5e4a43a12e79537e53e27c2bd4c5296b3e191cd6b301afce9fafd9d38238dde",
+          "upstreamMd5": "8541821edd6dcb319b7f9841d849fbbe"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/ArmChair_01/textures/Armchair_01_arm_1k.jpg",
+          "bytes": 138327,
+          "sha256": "d272c68e8180f2a381314ac0cef5a9165d15d951a0558cb40a17af71cf6a51c6",
+          "upstreamMd5": "2ea528244dd6fc0deb2af1a555c0a312"
+        }
+      ]
+    },
+    {
+      "id": "Chandelier_01",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "Chandelier 01",
+      "sourceUrl": "https://polyhaven.com/a/Chandelier_01",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/Chandelier_01/Chandelier_01_1k.gltf",
+          "bytes": 4438,
+          "sha256": "19a63453965dde6ace3159e2059c30adee81905e95a6beaf62b7f47d9283e724",
+          "upstreamMd5": "4750f709fd968452ffefd3315e13818f"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/Chandelier_01/textures/Chandelier_01_nor_gl_1k.jpg",
+          "bytes": 171686,
+          "sha256": "0830646c51d8d7a8af90b716768052aba973f9b2e43ac40fdaf7e5aeacbe0244",
+          "upstreamMd5": "47c244d75230b364e8de93ceca7a7a7e"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/Chandelier_01/Chandelier_01.bin",
+          "bytes": 892104,
+          "sha256": "f476cc0c0eed8ccc31c49fc797e00ac6a0c8666c345aa933a9accd5762c06cd1",
+          "upstreamMd5": "bb72e9fd9d5c2b25c307130807598dc8"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/Chandelier_01/textures/Chandelier_01_arm_1k.jpg",
+          "bytes": 151301,
+          "sha256": "f557f4872ed9a586728df285b5ee7d1e4a48aef81d8040d1e423a7fc02602e4e",
+          "upstreamMd5": "631b971946bbfbbb420104eb86dc9082"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/Chandelier_01/textures/Chandelier_01_diff_1k.jpg",
+          "bytes": 86766,
+          "sha256": "b52eaa35e990d61842006ee8c4a24e08c82e36d87e9ff7a751a6400547a0eba2",
+          "upstreamMd5": "361990948d40e7dc4f252ffc66702c6f"
+        }
+      ]
+    },
+    {
+      "id": "GothicCabinet_01",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "GothicCabinet 01",
+      "sourceUrl": "https://polyhaven.com/a/GothicCabinet_01",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/GothicCabinet_01/GothicCabinet_01_1k.gltf",
+          "bytes": 8968,
+          "sha256": "1b3506f78e263c66e90d4a84b9efa883fe0bb02a13ff8ead2b3a265024e045ce",
+          "upstreamMd5": "d6ec468ab981336f76f35f10d566e460"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/GothicCabinet_01/GothicCabinet_01.bin",
+          "bytes": 486532,
+          "sha256": "f1019b130872cad82d5bf5e27528a980fabbd69a9128340e5eb7530ea2d7c17b",
+          "upstreamMd5": "4c2f20b4b5fbf8c33b86b04dcf805c5f"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/GothicCabinet_01/textures/GothicCabinet_01_nor_gl_1k.jpg",
+          "bytes": 169970,
+          "sha256": "8c413ff4acbc3b4c7b58cb08e9a921f1781817a24533e0e9af6880ef40bfd68c",
+          "upstreamMd5": "a2912d1111ac0a4877af75280e539763"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/GothicCabinet_01/textures/GothicCabinet_01_diff_1k.jpg",
+          "bytes": 136344,
+          "sha256": "9b9586d9a840045d3f27ea4237ec56d713212fb877aceb2d0fc1cb75c7d59b98",
+          "upstreamMd5": "67ce3b2ce0a43cd209114084d49de35c"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/GothicCabinet_01/textures/GothicCabinet_01_arm_1k.jpg",
+          "bytes": 213632,
+          "sha256": "46b4a66b23836d37d5771ec024abfdc935c7b2bb17d73e2d802abca37edb6994",
+          "upstreamMd5": "8f88a6ca9bde9970644ba65086a33f39"
+        }
+      ]
+    },
+    {
+      "id": "gothic_statue",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "gothic statue",
+      "sourceUrl": "https://polyhaven.com/a/gothic_statue",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/gothic_statue/gothic_statue_1k.gltf",
+          "bytes": 2900,
+          "sha256": "eecbc67793a1e1efa1359d57fa497cb267fc7a4039823d3feecb6d0fcd2ad2db",
+          "upstreamMd5": "4fb49ae8f4278a0f5f1c7ca89a416f69"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/gothic_statue/textures/gothic_statue_nor_gl_1k.jpg",
+          "bytes": 1064867,
+          "sha256": "f0d1de09cb49f38ea5de9fb3b0af80834837616188d0504f07ee0cfc39a1ca91",
+          "upstreamMd5": "ecba6e86dc6dd8195710765f4889c895"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/gothic_statue/textures/gothic_statue_diff_1k.jpg",
+          "bytes": 1037433,
+          "sha256": "7c74e5a4e5af689d5c7556bb8b0bd60c8cc6c0cac9d8445fbd9f153abd1eddf1",
+          "upstreamMd5": "a8110eba7602d4d3ff00b05abf25397e"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/gothic_statue/textures/gothic_statue_arm_1k.jpg",
+          "bytes": 960949,
+          "sha256": "fbe7cec4c4745fb796c98a03209b6d664fca81b8b20d155e39509f85daa61fbb",
+          "upstreamMd5": "0403abefbd62dfc03eb6b237d6d82119"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/gothic_statue/gothic_statue.bin",
+          "bytes": 912484,
+          "sha256": "8608701ecff6b56e9fd9cddd130541f831ff8131a7758d54e7964af3d0152b9c",
+          "upstreamMd5": "64ff6a07591c56042e01c780dce7685b"
+        }
+      ]
+    },
+    {
+      "id": "modern_arm_chair_01",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "modern arm chair 01",
+      "sourceUrl": "https://polyhaven.com/a/modern_arm_chair_01",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_arm_chair_01/modern_arm_chair_01_1k.gltf",
+          "bytes": 5121,
+          "sha256": "d31be520add2603447b43acedbdacf9516866f7c89e9ea9230c9edbac9cc6e6a",
+          "upstreamMd5": "a5ce303bc2962fe98b733fcdfa5a842b"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_nor_gl_1k.jpg",
+          "bytes": 302377,
+          "sha256": "2717b9d22e1d3533e3c7436a0230b00b1d25bf396246679825c8db08edaba0a8",
+          "upstreamMd5": "6804f34108fcc755f0c84dd3c638270c"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_arm_chair_01/textures/modern_arm_chair_01_legs_nor_gl_1k.jpg",
+          "bytes": 560864,
+          "sha256": "af328e8530884907cf0d38a675338bb4e2b03c56ed2d21eb5abf505bb67c11de",
+          "upstreamMd5": "7cece7eccf75588af5b5df9b095d2c97"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_arm_1k.jpg",
+          "bytes": 321223,
+          "sha256": "fec333290ddfd70e78428251874d30d5410d6d0a956dd84922b0d3f3596e4b7a",
+          "upstreamMd5": "772495ddbf26ca3de4b31298f10113b9"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_arm_chair_01/textures/modern_arm_chair_01_legs_diff_1k.jpg",
+          "bytes": 460937,
+          "sha256": "6291421a8db6cd9bbbc8c141aa087465d698427249f813d24c6e5ccdbf0bf536",
+          "upstreamMd5": "778f1897e07ff81b2bc338f3d463ad1f"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_arm_chair_01/textures/modern_arm_chair_01_legs_arm_1k.jpg",
+          "bytes": 577931,
+          "sha256": "c76b65200a52cf649a865baf7f879dc34277b923edaac7ec8164eaf7c51c935d",
+          "upstreamMd5": "9c69cb001df175bddf6d1c2436567fb7"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_arm_chair_01/modern_arm_chair_01.bin",
+          "bytes": 240728,
+          "sha256": "8755f2f498c0bb165660379d1b045465751c16bbeaf553c8dd76bb14c16d1ff6",
+          "upstreamMd5": "5a8f2ea1c79ea484140e484b2a621670"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_diff_1k.jpg",
+          "bytes": 228851,
+          "sha256": "f1935436b460ad5c03ac7ff9d1e1b4aaedcdc9a503d79c257beb8cdac2e9e1f7",
+          "upstreamMd5": "2e4f64c633c3cb1656ad3eabdb3f0607"
+        }
+      ]
+    },
+    {
+      "id": "modern_ceiling_lamp_01",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "modern ceiling lamp 01",
+      "sourceUrl": "https://polyhaven.com/a/modern_ceiling_lamp_01",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_ceiling_lamp_01/modern_ceiling_lamp_01_1k.gltf",
+          "bytes": 6177,
+          "sha256": "f88b5d0a81fa813457a77474e7e4e812f97ad5fac2109ba03ddb183274be3f8c",
+          "upstreamMd5": "b85c212ffcc2cb9c74b9e68f314fec3b"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_arm_1k.jpg",
+          "bytes": 124022,
+          "sha256": "f4c6a8e7c86b1deaaf0f74099539ff635063b63f594b0fadfc3ec8fac805df4e",
+          "upstreamMd5": "6667aa4091a273a041715dccd3b83bc8"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_diff_1k.jpg",
+          "bytes": 79705,
+          "sha256": "c08bfbf7576a86a4a09d386ae9f0a92965fc652bf82f3a8dba1c796b1aa9e535",
+          "upstreamMd5": "7197acc141761c4c417023b9fb58db95"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_ceiling_lamp_01/modern_ceiling_lamp_01.bin",
+          "bytes": 146828,
+          "sha256": "ae5140a64e12e639554158901a5e92340bb37c706096ff255804e3220fb96367",
+          "upstreamMd5": "48b86e7e6db78e6d3dfd85b765c3ab68"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_nor_gl_1k.jpg",
+          "bytes": 79333,
+          "sha256": "dd75bd21a901581325f5c363bd89b45430b8531cb27dead314cd087196a33c27",
+          "upstreamMd5": "f3ebd90aa565968ce1faf25a03b1f912"
+        }
+      ]
+    },
+    {
+      "id": "marble_bust_01",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "marble bust 01",
+      "sourceUrl": "https://polyhaven.com/a/marble_bust_01",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/marble_bust_01/marble_bust_01_1k.gltf",
+          "bytes": 2793,
+          "sha256": "b6f192fc01be4349470b66f6f6948bd37620267bdbc86f4568e4d078f97ff09b",
+          "upstreamMd5": "599d6dd71c2dcdffa064b1c1d85882f4"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/marble_bust_01/marble_bust_01.bin",
+          "bytes": 416608,
+          "sha256": "0bb757c1bd00bfe42005c84e7f76df98ce04a532e595a2ddda8a0335cd959e33",
+          "upstreamMd5": "1c62c1189a0e8985618c1662e1bd25a3"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/marble_bust_01/textures/marble_bust_01_nor_gl_1k.jpg",
+          "bytes": 124627,
+          "sha256": "3d355904cd54c2de90d5d4310b80d43816fa2dd509f0a3445d654eab8e237c5f",
+          "upstreamMd5": "134149a7e8f142fcb605f0bde52b3ff6"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/marble_bust_01/textures/marble_bust_01_diff_1k.jpg",
+          "bytes": 160337,
+          "sha256": "cbb7dccdc62d7eaa240eef7b4956969bf6e73c7338b64f1378629838ea22383c",
+          "upstreamMd5": "aede40cc2b092d91a5f72598c911da4f"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/marble_bust_01/textures/marble_bust_01_rough_1k.jpg",
+          "bytes": 193918,
+          "sha256": "1c4502352dc936dd1f1c1a81b418706df1ce0445949874215015325f9b8921fb",
+          "upstreamMd5": "9fdff7b2b17d12fcc478de3021f561dd"
+        }
+      ]
+    },
+    {
+      "id": "WoodenTable_02",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "WoodenTable 02",
+      "sourceUrl": "https://polyhaven.com/a/WoodenTable_02",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/WoodenTable_02/WoodenTable_02_1k.gltf",
+          "bytes": 2692,
+          "sha256": "3a54261d3757fd78561f1f4bedb7304e0f7b98dae433998e280bc2843cf3fb24",
+          "upstreamMd5": "5d7716dcf8cc006e0ae3357e037504ea"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/WoodenTable_02/textures/WoodenTable_02_arm_1k.jpg",
+          "bytes": 157036,
+          "sha256": "232a482ff423c5c214c8a892b378b56995f53058f9c4ee5fb5c1798c9afa2adf",
+          "upstreamMd5": "dd4c7c83484ae80e9e8a7651275376cf"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/WoodenTable_02/textures/WoodenTable_02_nor_gl_1k.jpg",
+          "bytes": 149799,
+          "sha256": "9ceabc356fb177af63e118c1ea24245fcec627a027c0e5503fb5d2165e0f5aa3",
+          "upstreamMd5": "46082ace0e2b44d6eabe554c88542e2b"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/WoodenTable_02/WoodenTable_02.bin",
+          "bytes": 49564,
+          "sha256": "740bca56c0c6eff1209bb046825f5a8467badef1aebe38aab80d309884d4352e",
+          "upstreamMd5": "e36320501a385c756b842bcb73139292"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/WoodenTable_02/textures/WoodenTable_02_diff_1k.jpg",
+          "bytes": 144218,
+          "sha256": "559a27ea7d127010c5557213020b7d4e43d57289ca041291665dfe1213f5fe6c",
+          "upstreamMd5": "fc9095965ee8302713e8a6792028c6af"
+        }
+      ]
+    },
+    {
+      "id": "mid_century_lounge_chair",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "mid century lounge chair",
+      "sourceUrl": "https://polyhaven.com/a/mid_century_lounge_chair",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/mid_century_lounge_chair/mid_century_lounge_chair_1k.gltf",
+          "bytes": 2884,
+          "sha256": "47c5769ee4dfa350e2506a6a76d8ef58a1e1060344acda35c503ddff46645d26",
+          "upstreamMd5": "474bed17d25e794f39e60d1748dafcc6"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/mid_century_lounge_chair/textures/mid_century_lounge_chair_nor_gl_1k.jpg",
+          "bytes": 648960,
+          "sha256": "4bb4b325e4478f5d9063e4e061cf34bc6ccc3067abda608c1548c4a367f50397",
+          "upstreamMd5": "2caa258ba4e50a6be6533ac9ff96587e"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/mid_century_lounge_chair/textures/mid_century_lounge_chair_diff_1k.jpg",
+          "bytes": 627298,
+          "sha256": "ae1f80e964426b49f70b402403c444a655bdaa363d8d43fee5b57fcb3b492c54",
+          "upstreamMd5": "7ab2bc1b5ac85a7664a82eedf6c85dde"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/mid_century_lounge_chair/textures/mid_century_lounge_chair_arm_1k.jpg",
+          "bytes": 636493,
+          "sha256": "9fa5fa4af5306576a3a27886767feec5431f41d94df9119f2ccced8f0b024f1a",
+          "upstreamMd5": "a0a839c4ae18eb06a5ececc72c0e066f"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/mid_century_lounge_chair/mid_century_lounge_chair.bin",
+          "bytes": 171384,
+          "sha256": "26346cdc548ad74b1b6db5734c8c231c3c740656b012de2cc3bbc2b3b975200c",
+          "upstreamMd5": "bded2f717792aefe222dca07633b94ce"
+        }
+      ]
+    },
+    {
+      "id": "industrial_caged_sconce",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "industrial caged sconce",
+      "sourceUrl": "https://polyhaven.com/a/industrial_caged_sconce",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/industrial_caged_sconce/industrial_caged_sconce_1k.gltf",
+          "bytes": 18429,
+          "sha256": "a2fa6163a5eab0e3f00815a39d0be5f75985c899ca2ed60420e8d77f9c5e086b",
+          "upstreamMd5": "c4358ee53f130fb87a1600a47ad1e039"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/industrial_caged_sconce/textures/industrial_caged_sconce_emissive_1k.jpg",
+          "bytes": 51857,
+          "sha256": "7190b172709d4f8ce2899cccff3bc03ae25bc48bab5c4960b61a2eea5052896a",
+          "upstreamMd5": "128bad8ee6bde290b2d1a8b8998f96aa"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/industrial_caged_sconce/textures/industrial_caged_sconce_nor_gl_1k.jpg",
+          "bytes": 698685,
+          "sha256": "fb8eb25693c6197d30e0c4660326b1d408c6847f2150b1b4cd3478c8c0e2acd4",
+          "upstreamMd5": "e82a0dfb314c1677c6cb6e88546f5529"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/industrial_caged_sconce/textures/industrial_caged_sconce_diff_1k.jpg",
+          "bytes": 613120,
+          "sha256": "9a27babd23780b983cb631c4159e8e3a6d927c3ed4952f2d700eedf4e704e52f",
+          "upstreamMd5": "db7bd2a1603723a005055e23bc87f551"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/industrial_caged_sconce/textures/industrial_caged_sconce_arm_1k.jpg",
+          "bytes": 752636,
+          "sha256": "47b71ed5fbce0d549660394dd1e295d63c532cd8810dfb100177fa6def967851",
+          "upstreamMd5": "469a6f30108c821e81b93b0fc85fa771"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/industrial_caged_sconce/industrial_caged_sconce.bin",
+          "bytes": 949472,
+          "sha256": "fc14f0b5210c1de70ac25e535b676fb1e74e0c10c1901f09992b038f2139ab2a",
+          "upstreamMd5": "254aeed8e53de6fa20024b275ee0cc19"
+        }
+      ]
+    },
+    {
+      "id": "old_drill_press",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "old drill press",
+      "sourceUrl": "https://polyhaven.com/a/old_drill_press",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/old_drill_press/old_drill_press_1k.gltf",
+          "bytes": 4218,
+          "sha256": "b1ac11759c277e38fb0be776ba99802c131b9b7086141a5452398f91668bcfc2",
+          "upstreamMd5": "7173042722bfaa9c4f832baf3d821b01"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/old_drill_press/textures/old_drill_press_nor_gl_1k.jpg",
+          "bytes": 176234,
+          "sha256": "53be8dd65bb91bab307e5c8074cb7e74873a39be07d5a5aa74be7d141f88c703",
+          "upstreamMd5": "9c43f2ce27907d620ef6ff2a09719a9b"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/old_drill_press/textures/old_drill_press_diff_1k.jpg",
+          "bytes": 638449,
+          "sha256": "f89f24f6fa5d2302accb28ae77f0a2bc575de584f5b2bbad6ba1fd5f08f1234d",
+          "upstreamMd5": "9eb4b58dfbdace91c1435ce673d274d1"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/old_drill_press/textures/old_drill_press_arm_1k.jpg",
+          "bytes": 813356,
+          "sha256": "8142e35affbca8d66ec4c036c4e722a31f54bdb6a6bf08d47a35912c8bb70bdb",
+          "upstreamMd5": "92e3bf8adb983a0a90d6d0b4b8366090"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/old_drill_press/old_drill_press.bin",
+          "bytes": 720460,
+          "sha256": "9ba55c8bd04686e021f706c30ebca9aee01f8ce7003fc31541bf47f39a7d33f8",
+          "upstreamMd5": "65ae1a68cdd266ed928903ea96c0c6a2"
+        }
+      ]
+    },
+    {
+      "id": "power_box_01",
+      "kind": "model",
+      "provider": "Poly Haven",
+      "title": "power box 01",
+      "sourceUrl": "https://polyhaven.com/a/power_box_01",
+      "license": "CC0-1.0",
+      "author": "Poly Haven contributors",
+      "derivatives": [
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/power_box_01/power_box_01_1k.gltf",
+          "bytes": 4417,
+          "sha256": "edb54e68fb1229e9f59906459d782c2ddc576f6bd1141cf09ad864f48d7cb93b",
+          "upstreamMd5": "9fbd7f7049a13eb25213f5038c1ef42c"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/power_box_01/textures/power_box_01_arm_1k.jpg",
+          "bytes": 801803,
+          "sha256": "4601e901e2f7c1584ab5ecf65e0e192a99a4be86da505527f1622658e1b1e527",
+          "upstreamMd5": "2173121335747b6b20b747363d530006"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/power_box_01/textures/power_box_01_nor_gl_1k.jpg",
+          "bytes": 646545,
+          "sha256": "199b6fe93776aa0934f7bc36d8c82f1b4db9be9243e82e0cb3727bbcf25d85f1",
+          "upstreamMd5": "92c88449b0ce7dad3cd1d7e055870af5"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/power_box_01/power_box_01.bin",
+          "bytes": 782096,
+          "sha256": "b46efdf668ec2d4e04ff51604b5f1486caf20df632f442aab62601718058db05",
+          "upstreamMd5": "e76df413e15ce8a76eb50971266d2450"
+        },
+        {
+          "file": ".asset-cache/worlds/polyhaven/models/power_box_01/textures/power_box_01_diff_1k.jpg",
+          "bytes": 490782,
+          "sha256": "845c425ebc0ded263a7d49909e2c26710dd6160da11c0ca44aebd723f4f6f168",
+          "upstreamMd5": "c5d43a1a9cf48a616852a05401ad8f20"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev, codex/public-preflight]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: true
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11.16.0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm audit --audit-level high
+      - run: pnpm verify
+      - run: docker build --target web --tag virtual-library:ci .
+      - name: Smoke-test the production container
+        shell: bash
+        run: |
+          set -euo pipefail
+          trap 'docker rm -f virtual-library-smoke >/dev/null 2>&1 || true' EXIT
+          docker run --detach --name virtual-library-smoke --publish 127.0.0.1:18080:80 virtual-library:ci
+          curl --fail --silent --show-error --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:18080/ > /tmp/library-index.html
+          python3 - <<'PY'
+          import json
+          from urllib.request import urlopen
+          base = 'http://127.0.0.1:18080'
+          with urlopen(base + '/') as response:
+              assert response.headers['X-Content-Type-Options'] == 'nosniff'
+              assert response.headers['X-Frame-Options'] == 'SAMEORIGIN'
+              assert 'Virtual Library' in response.read().decode()
+          with urlopen(base + '/library-manifest.json') as response:
+              assert response.headers['Cache-Control'] == 'no-store'
+              manifest = json.load(response)
+          assert len(manifest['books']) == 1
+          assert manifest['books'][0]['title'] == 'Start Here: Explore Your Virtual Library'
+          with urlopen(base + '/worlds/assets/models/modern-lite.glb') as response:
+              assert response.read(4) == b'glTF'
+          with urlopen(base + '/PROJECT_LICENSE.txt') as response:
+              assert 'MIT License' in response.read().decode()
+          with urlopen(base + '/DEPENDENCY_LICENSES.json') as response:
+              assert len(json.load(response)) > 100
+          print('Container HTTP, headers, starter-only catalogue, GLB, and notices passed.')
+          PY

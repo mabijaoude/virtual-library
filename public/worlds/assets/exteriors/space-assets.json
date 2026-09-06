@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "generatedBy": "scripts/process-space-assets.mjs",
+  "runtimeRemoteUrls": false,
+  "sources": [
+    {
+      "id": "lroc-color",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_2k.jpg",
+      "page": "https://svs.gsfc.nasa.gov/4720/",
+      "credit": "NASA Scientific Visualization Studio / LRO WAC",
+      "rights": "NASA content generally is not subject to copyright in the United States; use is subject to the NASA Images and Media Usage Guidelines.",
+      "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "sourceSha256": "f7130a1822681fa7512d7dcfd40db8c10b9ba4f06777910348698260ed7a2170",
+      "cacheFile": ".asset-cache/worlds/nasa/lroc_color_2k.jpg"
+    },
+    {
+      "id": "lroc-height",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_3_8bit.jpg",
+      "page": "https://svs.gsfc.nasa.gov/4720/",
+      "credit": "NASA Scientific Visualization Studio / LOLA and Kaguya Terrain Camera",
+      "rights": "NASA content generally is not subject to copyright in the United States; use is subject to the NASA Images and Media Usage Guidelines.",
+      "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "sourceSha256": "6d93f887e7d8bedfe35ab89ba785e5e3ca12381bd092a5e6abe2c707dda8bb98",
+      "cacheFile": ".asset-cache/worlds/nasa/ldem_3_8bit.jpg"
+    },
+    {
+      "id": "blue-marble",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002915/bluemarble-2048.png",
+      "page": "https://svs.gsfc.nasa.gov/2915/",
+      "credit": "NASA Earth Observatory / Scientific Visualization Studio",
+      "rights": "NASA content generally is not subject to copyright in the United States; use is subject to the NASA Images and Media Usage Guidelines.",
+      "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "sourceSha256": "ae6214b078ed0864c96f74bcb10ae3021f6eb116f8059797efe0fa9ea8b89d35",
+      "cacheFile": ".asset-cache/worlds/nasa/bluemarble-2048.png"
+    }
+  ],
+  "derivatives": [
+    {
+      "file": "public/worlds/assets/exteriors/lunar-surface-color.webp",
+      "bytes": 180448,
+      "sha256": "883f55767c114b03561854287533080f91a1559fc663dd2d89071e032319ea12"
+    },
+    {
+      "file": "public/worlds/assets/exteriors/lunar-surface-height.webp",
+      "bytes": 105290,
+      "sha256": "6bad3e4f1d329b35005705b5deadb2e35ec1fe4e9fdf30678aa37f95a7827a4a"
+    },
+    {
+      "file": "public/worlds/assets/exteriors/earth-blue-marble.webp",
+      "bytes": 113242,
+      "sha256": "329b5d791bd96636f920cfb0a5e8bc722cfc01a5862a7425eaddf140fa04c3ef"
+    },
+    {
+      "file": "public/worlds/assets/exteriors/arkship-nebula.webp",
+      "bytes": 10414,
+      "sha256": "2c2f88e60d90ad4ddd8a14026c4bb6b6aedb5c429303262e39584ff16f4acb4e"
+    },
+    {
+      "file": "public/worlds/assets/exteriors/arkship-planet.webp",
+      "bytes": 64866,
+      "sha256": "add5547bd32670eb0fa69bc3b077b95c285f51d3d4093419920a6aa4d2da3aa2"
+    },
+    {
+      "file": "public/worlds/assets/backplates/lunar.webp",
+      "bytes": 101070,
+      "sha256": "1aebf4e7e522f128e373415ea4d09b37466b999163258eb35c325079429f5424"
+    },
+    {
+      "file": "public/worlds/assets/backplates/arkship.webp",
+      "bytes": 10382,
+      "sha256": "1245018c38556305a14960863a041b41f0988252939a59c195bb30b1fe155c3e"
+    }
+  ]
+}

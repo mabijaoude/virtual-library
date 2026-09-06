@@ -1,0 +1,25 @@
+{
+  "startup": "20260819-webp-startup",
+  "assets": {
+    "heritage": "20260902-lighter-room-anchors",
+    "gothic": "20260902-starter-sightline-anchors",
+    "modern": "20260902-model-cleanup-anchors",
+    "renaissance": "20260905-open-loggia",
+    "deco": "20260905-warm-salon",
+    "foundry": "20260903-signal-mural-anchors",
+    "lunar": "20260726-furnishing-polish-anchors",
+    "arkship": "20260822-aisle-lighting-anchors",
+    "alexandria": "20260906-ceremonial-doorway"
+  },
+  "previews": {
+    "heritage": "20260906-fireside-seating",
+    "gothic": "20260905-entry-views",
+    "modern": "20260906-daylight-atrium",
+    "renaissance": "20260905-terraced-garden",
+    "deco": "20260905-warm-salon",
+    "foundry": "20260905-aether-relays",
+    "lunar": "20260906-habitat-airlock",
+    "arkship": "20260906-passenger-almanac",
+    "alexandria": "20260906-ceremonial-doorway"
+  }
+}

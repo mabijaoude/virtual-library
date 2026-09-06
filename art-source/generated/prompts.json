@@ -1,0 +1,21 @@
+{
+  "generator": "OpenAI built-in image generation",
+  "license": "Project-generated",
+  "constraints": "No runtime text, logos, watermarks, people, or close foreground obstructions.",
+  "assets": [
+    { "file": "heritage-backplate.png", "purpose": "Rain-dark Georgian estate garden at blue-hour twilight, viewed through tall library windows." },
+    { "file": "gothic-backplate.png", "purpose": "Moonlit medieval cloister and mountain valley viewed through cathedral windows." },
+    { "file": "modern-backplate.png", "purpose": "Contemporary limestone museum court and distant city in soft morning daylight." },
+    { "file": "renaissance-backplate.png", "purpose": "Tuscan hills, cypress avenues, olive groves, and a distant hill town." },
+    { "file": "deco-backplate.png", "purpose": "Fictional 1930s Manhattan-like skyline at night." },
+    { "file": "foundry-backplate.png", "purpose": "Industrial megacity of black steel, copper conduits, steam, and restrained signal light." },
+    { "file": "alexandria-backplate.png", "purpose": "Layered Hellenistic Alexandria harbor, Mediterranean shipping, and the distant Pharos in warm late-afternoon light." },
+    { "file": "heritage-art.png", "purpose": "Aged Enlightenment-era oil-painted allegorical triptych." },
+    { "file": "gothic-art.png", "purpose": "Front-facing medieval rose window with books, stars, and scales of justice." },
+    { "file": "renaissance-art.png", "purpose": "Aged Renaissance fresco scenes of geometry, civic learning, and a monastery landscape." },
+    { "file": "deco-art.png", "purpose": "Ebony, ivory, brass, emerald, and burgundy Art Deco marquetry atlas." },
+    { "file": "foundry-art.png", "purpose": "Abstract cyan, magenta, and brass mechanical instrument display atlas." },
+    { "file": "alexandria-art.png", "purpose": "Weathered Hellenistic astronomical fresco with armillary, geometry, scrolls, and maritime ornament." }
+  ]
+}
+

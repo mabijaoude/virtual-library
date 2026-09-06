@@ -1,0 +1,399 @@
+{
+  "version": 1,
+  "generatedBy": "scripts/optimize-world-assets.mjs",
+  "localOnly": true,
+  "worlds": {
+    "heritage": {
+      "complete": {
+        "model": "/worlds/assets/models/heritage-cinematic.glb",
+        "environment": "/worlds/assets/environments/heritage.hdr",
+        "backplate": "/worlds/assets/backplates/heritage.webp",
+        "art": "/worlds/assets/art/heritage.webp",
+        "exterior": [],
+        "audioZones": [
+          "fire-rain"
+        ],
+        "bytes": 8217779,
+        "modelBytes": 5681796,
+        "contentHash": "e204f2a328b40329fae26e0f2dbf1f7c51ee91fcdf3c1f72f47593869e13f572",
+        "triangles": 17564,
+        "vertices": 20790,
+        "nodes": 114,
+        "materials": 6,
+        "drawCalls": 90,
+        "validatorErrors": 0,
+        "validatorWarnings": 52
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/heritage-lite.glb",
+        "environment": "/worlds/assets/environments/heritage.hdr",
+        "backplate": "/worlds/assets/backplates/heritage.webp",
+        "art": "/worlds/assets/art/heritage.webp",
+        "exterior": [],
+        "audioZones": [
+          "fire-rain"
+        ],
+        "bytes": 2872751,
+        "modelBytes": 336768,
+        "contentHash": "7a855ac62ca6c586be8f2212cdc50847526b314e21b54e7d3e2eb8ff862177f7",
+        "triangles": 12004,
+        "vertices": 13767,
+        "nodes": 91,
+        "materials": 6,
+        "drawCalls": 67,
+        "validatorErrors": 0,
+        "validatorWarnings": 24
+      }
+    },
+    "gothic": {
+      "complete": {
+        "model": "/worlds/assets/models/gothic-cinematic.glb",
+        "environment": "/worlds/assets/environments/gothic.hdr",
+        "backplate": "/worlds/assets/backplates/gothic.webp",
+        "art": "/worlds/assets/art/gothic.webp",
+        "exterior": [],
+        "audioZones": [
+          "cathedral-air"
+        ],
+        "bytes": 5706068,
+        "modelBytes": 2567916,
+        "contentHash": "8ebfcd9fc6fb97e219c6b1586044b3120faa405b5fd1b54686b75d32fe6ef954",
+        "triangles": 12456,
+        "vertices": 14369,
+        "nodes": 109,
+        "materials": 5,
+        "drawCalls": 86,
+        "validatorErrors": 0,
+        "validatorWarnings": 66
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/gothic-lite.glb",
+        "environment": "/worlds/assets/environments/gothic.hdr",
+        "backplate": "/worlds/assets/backplates/gothic.webp",
+        "art": "/worlds/assets/art/gothic.webp",
+        "exterior": [],
+        "audioZones": [
+          "cathedral-air"
+        ],
+        "bytes": 3337416,
+        "modelBytes": 199264,
+        "contentHash": "5c9f5c4ff2ec1508ef49898821f09cdfc21df4b5f9af1bec7854ffb0d908624c",
+        "triangles": 7384,
+        "vertices": 8526,
+        "nodes": 72,
+        "materials": 5,
+        "drawCalls": 49,
+        "validatorErrors": 0,
+        "validatorWarnings": 0
+      }
+    },
+    "modern": {
+      "complete": {
+        "model": "/worlds/assets/models/modern-cinematic.glb",
+        "environment": "/worlds/assets/environments/modern.hdr",
+        "backplate": "/worlds/assets/backplates/modern.webp",
+        "art": null,
+        "exterior": [],
+        "audioZones": [
+          "museum-hvac"
+        ],
+        "bytes": 7490950,
+        "modelBytes": 5278380,
+        "contentHash": "6ae8b09ac0fb4c352e81843cb777a1978ea46a95f9e5fb9340e9abc13676eeb5",
+        "triangles": 11022,
+        "vertices": 10976,
+        "nodes": 67,
+        "materials": 9,
+        "drawCalls": 43,
+        "validatorErrors": 0,
+        "validatorWarnings": 36
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/modern-lite.glb",
+        "environment": "/worlds/assets/environments/modern.hdr",
+        "backplate": "/worlds/assets/backplates/modern.webp",
+        "art": null,
+        "exterior": [],
+        "audioZones": [
+          "museum-hvac"
+        ],
+        "bytes": 2467430,
+        "modelBytes": 254860,
+        "contentHash": "5ce67ae8826e904e23373f13915657726d643954c417c02e983d5e5659f326ef",
+        "triangles": 2944,
+        "vertices": 3550,
+        "nodes": 57,
+        "materials": 5,
+        "drawCalls": 34,
+        "validatorErrors": 0,
+        "validatorWarnings": 8
+      }
+    },
+    "renaissance": {
+      "complete": {
+        "model": "/worlds/assets/models/renaissance-cinematic.glb",
+        "environment": "/worlds/assets/environments/renaissance.hdr",
+        "backplate": "/worlds/assets/backplates/renaissance.webp",
+        "art": null,
+        "exterior": [],
+        "audioZones": [
+          "courtyard-water"
+        ],
+        "bytes": 9680453,
+        "modelBytes": 7164780,
+        "contentHash": "b977a6aac7ca3ae9336b4b21459d7acee7de9b89966a53ab556a1e86485dd009",
+        "triangles": 25420,
+        "vertices": 26385,
+        "nodes": 172,
+        "materials": 6,
+        "drawCalls": 130,
+        "validatorErrors": 0,
+        "validatorWarnings": 98
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/renaissance-lite.glb",
+        "environment": "/worlds/assets/environments/renaissance.hdr",
+        "backplate": "/worlds/assets/backplates/renaissance.webp",
+        "art": null,
+        "exterior": [],
+        "audioZones": [
+          "courtyard-water"
+        ],
+        "bytes": 3004117,
+        "modelBytes": 488444,
+        "contentHash": "6cfa8a20b09eb08bd40c70a5d959fceed1d033c482be48429984a93bfe645bfe",
+        "triangles": 15992,
+        "vertices": 17842,
+        "nodes": 146,
+        "materials": 5,
+        "drawCalls": 104,
+        "validatorErrors": 0,
+        "validatorWarnings": 41
+      }
+    },
+    "deco": {
+      "complete": {
+        "model": "/worlds/assets/models/deco-cinematic.glb",
+        "environment": "/worlds/assets/environments/deco.hdr",
+        "backplate": null,
+        "art": null,
+        "exterior": [],
+        "audioZones": [
+          "city-room-tone"
+        ],
+        "bytes": 4880300,
+        "modelBytes": 3136280,
+        "contentHash": "449e123e864927394634904ea3b6ba8fbdd70c8136b25a51ad4c21aa6eacb4c1",
+        "triangles": 2732,
+        "vertices": 3243,
+        "nodes": 61,
+        "materials": 5,
+        "drawCalls": 33,
+        "validatorErrors": 0,
+        "validatorWarnings": 23
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/deco-lite.glb",
+        "environment": "/worlds/assets/environments/deco.hdr",
+        "backplate": null,
+        "art": null,
+        "exterior": [],
+        "audioZones": [
+          "city-room-tone"
+        ],
+        "bytes": 1990804,
+        "modelBytes": 246784,
+        "contentHash": "e47bbd903863dd588439d01e81c4d2aecbfbf43170815c6e757ddb93f3c7d4e3",
+        "triangles": 1848,
+        "vertices": 2109,
+        "nodes": 50,
+        "materials": 5,
+        "drawCalls": 22,
+        "validatorErrors": 0,
+        "validatorWarnings": 10
+      }
+    },
+    "foundry": {
+      "complete": {
+        "model": "/worlds/assets/models/foundry-cinematic.glb",
+        "environment": "/worlds/assets/environments/foundry.hdr",
+        "backplate": "/worlds/assets/backplates/foundry.webp",
+        "art": null,
+        "exterior": [],
+        "audioZones": [
+          "foundry-machinery"
+        ],
+        "bytes": 4898845,
+        "modelBytes": 2608056,
+        "contentHash": "3e7b30e1cd90a8aa4d0f01655f082a2d5c5dfdb319b5e0b55656a1a36033f039",
+        "triangles": 1468,
+        "vertices": 2312,
+        "nodes": 41,
+        "materials": 4,
+        "drawCalls": 17,
+        "validatorErrors": 0,
+        "validatorWarnings": 16
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/foundry-lite.glb",
+        "environment": "/worlds/assets/environments/foundry.hdr",
+        "backplate": "/worlds/assets/backplates/foundry.webp",
+        "art": null,
+        "exterior": [],
+        "audioZones": [
+          "foundry-machinery"
+        ],
+        "bytes": 2438149,
+        "modelBytes": 147360,
+        "contentHash": "3c5f5f88cf103508695cd055f5f9a55be7d3d9a68124e2df4b6a4346af6baf51",
+        "triangles": 528,
+        "vertices": 872,
+        "nodes": 36,
+        "materials": 3,
+        "drawCalls": 12,
+        "validatorErrors": 0,
+        "validatorWarnings": 3
+      }
+    },
+    "lunar": {
+      "complete": {
+        "model": "/worlds/assets/models/lunar-cinematic.glb",
+        "environment": "/worlds/assets/environments/lunar.hdr",
+        "backplate": "/worlds/assets/backplates/lunar.webp",
+        "art": null,
+        "exterior": [
+          "/worlds/assets/exteriors/lunar-surface-color.webp",
+          "/worlds/assets/exteriors/lunar-surface-height.webp",
+          "/worlds/assets/exteriors/earth-blue-marble.webp"
+        ],
+        "audioZones": [
+          "lunar-life-support"
+        ],
+        "bytes": 4796306,
+        "modelBytes": 2659620,
+        "contentHash": "4a35a6063001755d681a508a462173a6ebf875dceaec147cf2e8a35141579819",
+        "triangles": 3776,
+        "vertices": 5696,
+        "nodes": 64,
+        "materials": 7,
+        "drawCalls": 40,
+        "validatorErrors": 0,
+        "validatorWarnings": 36
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/lunar-lite.glb",
+        "environment": "/worlds/assets/environments/lunar.hdr",
+        "backplate": "/worlds/assets/backplates/lunar.webp",
+        "art": null,
+        "exterior": [
+          "/worlds/assets/exteriors/lunar-surface-color.webp",
+          "/worlds/assets/exteriors/lunar-surface-height.webp",
+          "/worlds/assets/exteriors/earth-blue-marble.webp"
+        ],
+        "audioZones": [
+          "lunar-life-support"
+        ],
+        "bytes": 2308894,
+        "modelBytes": 172208,
+        "contentHash": "5db9e704857630b0c625b5e2c3c87a416ac62524900f2c2017918fa5dc1317e5",
+        "triangles": 1144,
+        "vertices": 1488,
+        "nodes": 49,
+        "materials": 4,
+        "drawCalls": 26,
+        "validatorErrors": 0,
+        "validatorWarnings": 1
+      }
+    },
+    "arkship": {
+      "complete": {
+        "model": "/worlds/assets/models/arkship-cinematic.glb",
+        "environment": "/worlds/assets/environments/arkship.hdr",
+        "backplate": "/worlds/assets/backplates/arkship.webp",
+        "art": null,
+        "exterior": [
+          "/worlds/assets/exteriors/arkship-nebula.webp",
+          "/worlds/assets/exteriors/arkship-planet.webp"
+        ],
+        "audioZones": [
+          "arkship-reactor"
+        ],
+        "bytes": 4553590,
+        "modelBytes": 2723908,
+        "contentHash": "5d5b30347b14c03590b8830b7f6dae9fdab46b99bd6340514d04d77a6d96bf9b",
+        "triangles": 9060,
+        "vertices": 13694,
+        "nodes": 80,
+        "materials": 8,
+        "drawCalls": 56,
+        "validatorErrors": 0,
+        "validatorWarnings": 37
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/arkship-lite.glb",
+        "environment": "/worlds/assets/environments/arkship.hdr",
+        "backplate": "/worlds/assets/backplates/arkship.webp",
+        "art": null,
+        "exterior": [
+          "/worlds/assets/exteriors/arkship-nebula.webp",
+          "/worlds/assets/exteriors/arkship-planet.webp"
+        ],
+        "audioZones": [
+          "arkship-reactor"
+        ],
+        "bytes": 2005278,
+        "modelBytes": 175596,
+        "contentHash": "2b164578df01160cf4bc1c0557b9adac11c6bc53bbc591106b0ddb29960a9a4d",
+        "triangles": 1736,
+        "vertices": 1943,
+        "nodes": 49,
+        "materials": 6,
+        "drawCalls": 25,
+        "validatorErrors": 0,
+        "validatorWarnings": 1
+      }
+    },
+    "alexandria": {
+      "complete": {
+        "model": "/worlds/assets/models/alexandria-cinematic.glb",
+        "environment": "/worlds/assets/environments/alexandria.hdr",
+        "backplate": "/worlds/assets/backplates/alexandria.webp",
+        "art": "/worlds/assets/art/alexandria.webp",
+        "exterior": [],
+        "audioZones": [
+          "harbor-wind"
+        ],
+        "bytes": 11797653,
+        "modelBytes": 8653360,
+        "contentHash": "d50c3dabe27b4d4a796acd1cda5e23bb50f2d45d7bcf40cd88c2aea63f275b62",
+        "triangles": 31724,
+        "vertices": 42825,
+        "nodes": 32,
+        "materials": 9,
+        "drawCalls": 9,
+        "validatorErrors": 0,
+        "validatorWarnings": 36
+      },
+      "fallback": {
+        "model": "/worlds/assets/models/alexandria-lite.glb",
+        "environment": "/worlds/assets/environments/alexandria.hdr",
+        "backplate": "/worlds/assets/backplates/alexandria.webp",
+        "art": "/worlds/assets/art/alexandria.webp",
+        "exterior": [],
+        "audioZones": [
+          "harbor-wind"
+        ],
+        "bytes": 3640693,
+        "modelBytes": 496400,
+        "contentHash": "d7a7cd744dd104335cdb94f6fc9fed4c15dbad8d1859979268c8e69337ed809f",
+        "triangles": 9672,
+        "vertices": 11846,
+        "nodes": 28,
+        "materials": 5,
+        "drawCalls": 5,
+        "validatorErrors": 0,
+        "validatorWarnings": 2
+      }
+    }
+  }
+}

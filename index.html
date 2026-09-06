@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Library</title>
+    <style>
+      html,body,#root{width:100%;height:100%;margin:0;background:#d9dedf;color:#17252d;font-family:Inter,system-ui,sans-serif}body{overflow:hidden}.boot-shell{min-height:100%;display:grid;place-items:center;background:#d9dedf center/cover no-repeat}.boot-shell div{padding:20px 24px;border:1px solid rgba(33,48,58,.2);border-radius:9px;background:rgba(247,248,246,.92);box-shadow:0 20px 60px rgba(29,37,42,.18);text-align:center}.boot-shell strong{display:block;font-family:Georgia,serif;font-size:22px}.boot-shell span{display:block;margin-top:6px;color:#60707a;font-size:12px}
+    </style>
+    <script>
+      (function () {
+        var worlds = ["modern", "heritage", "gothic", "renaissance", "deco", "foundry", "lunar", "arkship", "alexandria"];
+        var requested = new URLSearchParams(window.location.search).get("world");
+        var stored;
+        try {
+          stored = localStorage.getItem("virtual-library:world");
+        } catch (_) {}
+        var world = worlds.indexOf(requested) >= 0 ? requested : worlds.indexOf(stored) >= 0 ? stored : "modern";
+        var revisions = __WORLD_ASSET_REVISIONS__;
+        var assetRevision = revisions.assets[world];
+        var previewRevision = revisions.previews[world];
+        var fallbackRevision = revisions.startup;
+        var roomAssets = [
+          { href: "/worlds/previews/" + world + ".webp?v=" + previewRevision, as: "image", type: "image/webp", priority: "high" },
+          { href: "/worlds/assets/models/" + world + "-lite.glb?v=" + assetRevision + "&startup=" + fallbackRevision, as: "fetch", priority: "high" }
+        ];
+        if (world !== "deco") roomAssets.push({ href: "/worlds/assets/backplates/" + world + ".webp?v=" + assetRevision, as: "image", type: "image/webp", priority: "high" });
+        if (["heritage", "gothic", "alexandria"].indexOf(world) >= 0) {
+          roomAssets.push({ href: "/worlds/assets/art/" + world + ".webp?v=" + assetRevision, as: "image", type: "image/webp", priority: "high" });
+        }
+        var materialFamilies = ["book-leather", "boundary-stone"];
+        if (["foundry", "arkship"].indexOf(world) >= 0) materialFamilies.push("shelf-metal");
+        else if (world === "lunar") materialFamilies.push("shelf-metal", "shelf-concrete");
+        else if (world === "modern") materialFamilies.push("shelf-wood", "shelf-concrete", "shelf-metal", "marble");
+        else materialFamilies.push("shelf-wood");
+        if (world === "renaissance") materialFamilies.push("dome-plaster");
+        if (world === "alexandria") materialFamilies.push("dome-plaster", "marble", "alexandria-papyrus");
+        var materialNames = [];
+        materialFamilies.forEach(function (family) {
+          if (family === "book-leather") materialNames.push("book-leather-normal.webp", "book-leather-roughness.webp");
+          else materialNames.push(family + "-color.webp", family + "-normal.webp", family + "-roughness.webp");
+        });
+        Array.from(new Set(materialNames)).forEach(function (name) {
+          roomAssets.push({ href: "/worlds/assets/materials/" + name, as: "image", type: "image/webp", priority: "low" });
+        });
+        roomAssets.forEach(function (asset) {
+          var link = document.createElement("link");
+          link.rel = "preload";
+          link.href = asset.href;
+          link.as = asset.as;
+          if (asset.type) link.type = asset.type;
+          if (asset.as === "fetch") link.crossOrigin = "anonymous";
+          link.setAttribute("fetchpriority", asset.priority);
+          document.head.appendChild(link);
+        });
+
+        function showBootError(event) {
+          var root = document.getElementById("root");
+          var error = event.reason || event.error || event.message || event;
+          if (!root || root.childNodes.length) return;
+          root.innerHTML =
+            '<main class="loading-screen"><h1>Application failed to load</h1><p>' +
+            String(error && error.message ? error.message : error) +
+            "</p></main>";
+        }
+        window.addEventListener("error", showBootError);
+        window.addEventListener("unhandledrejection", showBootError);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"><main class="boot-shell"><div><strong>Virtual Library</strong><span>Opening the catalogue…</span></div></main></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

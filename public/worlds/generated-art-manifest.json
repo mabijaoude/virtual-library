@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generator": "scripts/process-world-art.mjs",
+  "license": "Project-generated",
+  "assets": [
+    {
+      "source": "art-source/generated/heritage-backplate.png",
+      "file": "assets/backplates/heritage.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 407602,
+      "sha256": "222d0cafa746b29b8165ecab32b241e3288fef924356504ec413b2975810f015"
+    },
+    {
+      "source": "art-source/generated/gothic-backplate.png",
+      "file": "assets/backplates/gothic.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 342974,
+      "sha256": "a3f2033c5eaa479416185303cca4282936c1b35cb5f36e1ff5c0aad25ccf1123"
+    },
+    {
+      "source": "art-source/generated/modern-backplate.png",
+      "file": "assets/backplates/modern.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 575934,
+      "sha256": "9b385608d708dd085952f7508382f3cf351ad250bf161590159ac3d72819e028"
+    },
+    {
+      "source": "art-source/generated/renaissance-backplate.png",
+      "file": "assets/backplates/renaissance.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 798882,
+      "sha256": "5b57f0b5c0b86e60476561edd5a358a2131f90d5f5dd410c99096ef674f69462"
+    },
+    {
+      "source": "art-source/generated/deco-backplate.png",
+      "file": "assets/backplates/deco.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 375436,
+      "sha256": "41b6639067ac0b29a8e4666c4aba24435d6edbd6657686b625dd9e971fc99602"
+    },
+    {
+      "source": "art-source/generated/foundry-backplate.png",
+      "file": "assets/backplates/foundry.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 581556,
+      "sha256": "9e8575cee6e23e2e44e462f50bb197b04dec7b65cd42f30ed53911e8f8f9f320"
+    },
+    {
+      "source": "art-source/generated/alexandria-backplate.png",
+      "file": "assets/backplates/alexandria.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 521346,
+      "sha256": "e4e1ebea20fae0d067dec752be7a735421784eab557544a43b6c7fddbcfffe80"
+    },
+    {
+      "source": "art-source/generated/heritage-art.png",
+      "file": "assets/art/heritage.webp",
+      "width": 2560,
+      "height": 1280,
+      "bytes": 507094,
+      "sha256": "6e598bf51d9e7f4cb812f9822070bd765310d26ef81e0b9c5f44c7769b6358bc"
+    },
+    {
+      "source": "art-source/generated/gothic-art.png",
+      "file": "assets/art/gothic.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 974372,
+      "sha256": "8bcd8d79a6306ebc0bafbf263fbe3882227aa9092c716ab35042ab1328e013d4"
+    },
+    {
+      "source": "art-source/generated/renaissance-art.png",
+      "file": "assets/art/renaissance.webp",
+      "width": 2560,
+      "height": 1280,
+      "bytes": 646828,
+      "sha256": "e39b25c2d1a2c7e98579b70afd3823bd4d2e36ab8e4724db384db9738da50eb4"
+    },
+    {
+      "source": "art-source/generated/deco-art.png",
+      "file": "assets/art/deco.webp",
+      "width": 2560,
+      "height": 1280,
+      "bytes": 377624,
+      "sha256": "98ef642186f5e46f3d606be06e5adcf794239de888884af5089d3c3264a7bbbd"
+    },
+    {
+      "source": "art-source/generated/foundry-art.png",
+      "file": "assets/art/foundry.webp",
+      "width": 2560,
+      "height": 1280,
+      "bytes": 480300,
+      "sha256": "f9f8cf63a986f175ca7a4efebd401ba73762ab8600e04a494c5c2de8d799239b"
+    },
+    {
+      "source": "art-source/generated/alexandria-art.png",
+      "file": "assets/art/alexandria.webp",
+      "width": 2560,
+      "height": 1280,
+      "bytes": 906156,
+      "sha256": "e702fcfafc4342363852d2f995fb56f0807d39fe45ee476ef11575d47330fb18"
+    }
+  ]
+}

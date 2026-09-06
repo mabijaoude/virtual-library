@@ -1,0 +1,4 @@
+art-source/**/*.png filter=lfs diff=lfs merge=lfs -text
+art-source/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+art-source/**/*.exr filter=lfs diff=lfs merge=lfs -text
+art-source/**/*.hdr filter=lfs diff=lfs merge=lfs -text

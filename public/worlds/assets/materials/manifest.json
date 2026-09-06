@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "generatedBy": "scripts/process-runtime-materials.mjs",
+  "assets": [
+    {
+      "source": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG_Color.jpg",
+      "file": "/worlds/assets/materials/shelf-wood-color.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 23704,
+      "sha256": "e1095a60fbda1a88d05b924274388ea8b91f2ae9bdeab9dc9f573d580a0868b9",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/shelf-wood-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 35960,
+      "sha256": "ee1bf8adc88785966db2a907347415e86240bf0585f74b74864725ba4f19ad2a",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Wood051/Wood051_1K-JPG_Roughness.jpg",
+      "file": "/worlds/assets/materials/shelf-wood-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 49202,
+      "sha256": "0e077f09380d8ffeac05ca1ca1debd1418459cfda43257427398b11a401c94ba",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG_Color.jpg",
+      "file": "/worlds/assets/materials/shelf-concrete-color.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 24028,
+      "sha256": "dd7d47bacf4173b59e4914226546e5a57c79d0405298a7234bd128590a04a663",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/shelf-concrete-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 48696,
+      "sha256": "b5a7fb4fbda64d4efb03f6204ae68a879cf73d36a8a7022963f15eb58189c30b",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Concrete034/Concrete034_1K-JPG_Roughness.jpg",
+      "file": "/worlds/assets/materials/shelf-concrete-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 15914,
+      "sha256": "a95d12be26401b7bf60c9c0a9211606518aeeec6acf8ec6a59541014fbaa317a",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_Color.jpg",
+      "file": "/worlds/assets/materials/shelf-metal-color.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 39150,
+      "sha256": "2fc7ed52b3509aebf41ee4943be35c664bdf67b33d45905ba12270187aec4cd1",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/shelf-metal-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 546,
+      "sha256": "99415c81986fb99273f1b15a381c805b3b00509edd9e84bf38375962b36722ce",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_Roughness.jpg",
+      "file": "/worlds/assets/materials/shelf-metal-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 62842,
+      "sha256": "c2ced17cf739f4ebccd6bd50b8ad9eab51cff425f19dfb73d44b26d34344dac4",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_Color.jpg",
+      "file": "/worlds/assets/materials/boundary-stone-color.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 29894,
+      "sha256": "c7ec2bda032f72477c993fa8b1b477fc17c64be716e01443668b9017e8c990ef",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/boundary-stone-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 546,
+      "sha256": "99415c81986fb99273f1b15a381c805b3b00509edd9e84bf38375962b36722ce",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Travertine009/Travertine009_1K-JPG_Roughness.jpg",
+      "file": "/worlds/assets/materials/boundary-stone-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 4326,
+      "sha256": "55f5d8cbc0899e5b02378dbf6e17a33c7d0a09a63be1748e9f37ebb5eb2b6151",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG_Color.jpg",
+      "file": "/worlds/assets/materials/marble-color.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 69994,
+      "sha256": "10ecae2d68a544a65637808e3f7a3109a4553dca025cd844ec3c282f7f798f97",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/marble-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 546,
+      "sha256": "99415c81986fb99273f1b15a381c805b3b00509edd9e84bf38375962b36722ce",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Marble012/Marble012_1K-JPG_Roughness.jpg",
+      "file": "/worlds/assets/materials/marble-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 29764,
+      "sha256": "7e47bd5d71204cd25f0ca0a23e661713e56c18755c671d40f575f0b8fb4fbe9f",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_Color.jpg",
+      "file": "/worlds/assets/materials/dome-plaster-color.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 15804,
+      "sha256": "bfafe850faebea34fc106a70b0ef84e7309d431cb9a8521e65f3e2cb78eaa014",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/dome-plaster-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 72658,
+      "sha256": "bad4b927a52bc6fa40dbb8f572db82122f5e2e5df73b31e71a5b2c70f90b9b68",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_Roughness.jpg",
+      "file": "/worlds/assets/materials/dome-plaster-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 11916,
+      "sha256": "dd7caffb4b4567deb454233877128fd3f85a51e213603f484862013ea9e6f8ca",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/book-leather-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 69486,
+      "sha256": "eebca7eca93281e356dc231667e8d69ae8e2cf45abcbcf8a4a5ee98f9118b57a",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Leather037/Leather037_1K-JPG_Roughness.jpg",
+      "file": "/worlds/assets/materials/book-leather-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 96250,
+      "sha256": "84a4045ada183e445d5b227e4bd48726d33e5e259c201a9fe31ec225f5bf5f2d",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/hardware-metal-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 546,
+      "sha256": "99415c81986fb99273f1b15a381c805b3b00509edd9e84bf38375962b36722ce",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Metal063/Metal063_1K-JPG_Roughness.jpg",
+      "file": "/worlds/assets/materials/hardware-metal-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 62842,
+      "sha256": "c2ced17cf739f4ebccd6bd50b8ad9eab51cff425f19dfb73d44b26d34344dac4",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": ".asset-cache/worlds/ambientcg/Plaster001/Plaster001_1K-JPG_NormalGL.jpg",
+      "file": "/worlds/assets/materials/paper-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 72658,
+      "sha256": "bad4b927a52bc6fa40dbb8f572db82122f5e2e5df73b31e71a5b2c70f90b9b68",
+      "license": "CC0-1.0"
+    },
+    {
+      "source": "art-source/generated/materials/alexandria-papyrus-color.png",
+      "file": "/worlds/assets/materials/alexandria-papyrus-color.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 28716,
+      "sha256": "b3a9b6e7ed134cdcbd898aaa19a62cb771179eef3673c37c0056904a445f31d3",
+      "license": "Project-generated",
+      "generatedBy": "scripts/blender/build_worlds.py"
+    },
+    {
+      "source": "art-source/generated/materials/alexandria-papyrus-normal.png",
+      "file": "/worlds/assets/materials/alexandria-papyrus-normal.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 56916,
+      "sha256": "2ac31a196387bc8ee921e05b3bdd059f3a08770befbc8e470513ac976ae6d83d",
+      "license": "Project-generated",
+      "generatedBy": "scripts/blender/build_worlds.py"
+    },
+    {
+      "source": "art-source/generated/materials/alexandria-papyrus-roughness.png",
+      "file": "/worlds/assets/materials/alexandria-papyrus-roughness.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 2660,
+      "sha256": "2cfcea94daefb3f5301fb729061942a6038fe9988cb036b2f311542ca971793b",
+      "license": "Project-generated",
+      "generatedBy": "scripts/blender/build_worlds.py"
+    }
+  ]
+}
