@@ -31,9 +31,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          trap 'docker rm -f virtual-library-smoke >/dev/null 2>&1 || true' EXIT
+          trap 'status=$?; if [ "$status" -ne 0 ]; then docker logs virtual-library-smoke; fi; docker rm -f virtual-library-smoke >/dev/null 2>&1 || true; exit "$status"' EXIT
           docker run --detach --name virtual-library-smoke --publish 127.0.0.1:18080:80 virtual-library:ci
-          curl --fail --silent --show-error --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:18080/ > /tmp/library-index.html
+          curl --fail --silent --show-error --max-time 5 --retry 10 --retry-all-errors --retry-delay 1 --retry-max-time 30 http://127.0.0.1:18080/ > /tmp/library-index.html
           python3 - <<'PY'
           import json
           from urllib.request import urlopen

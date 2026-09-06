@@ -66,6 +66,12 @@ The browser review also passed:
 
 Automated unit tests separately cover nested Markdown collections and empty-library fallback behavior. These browser checks used the existing reference deployment because the application code is unchanged; they do not establish that a later deployment contains the new release documentation or tooling.
 
+## Final preflight
+
+The `codex/public-preflight` CI branch runs the exact clean candidate privately before publication. It repeats verification on Linux with Node.js 22 and the pinned pnpm version, builds the stock Docker image, and starts a disposable loopback-only container to verify HTTP service, security headers, catalogue caching, the starter-only collection, a real GLB response, and distributed notices. The startup probe has bounded retries, and the container is removed on both success and failure.
+
+Use the successful CI run for the exact commit being published as the container verification record. Follow-up preflight fixes may add reviewed commits to the fresh release history; no old development branches or tags belong in that history.
+
 ## Publication boundary
 
 No website deployment, public repository visibility change, remote history rewrite, or release publication is part of this preparation. Docker execution requires a Docker-capable environment; the CI workflow includes the container build. Real-phone touch behavior, assistive-technology coverage, and repeated cold/warm GPU profiling remain separate release checks.

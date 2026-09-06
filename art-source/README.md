@@ -11,4 +11,3 @@ build context. Runtime derivatives are generated into `public/worlds/assets`.
   because Blender records machine-local build paths in them.
 - Third-party CC0 downloads are not committed. `asset-lock.json` records exact
   source URLs and hashes so `pnpm assets:fetch` can restore them locally.
-

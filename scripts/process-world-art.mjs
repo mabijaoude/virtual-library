@@ -49,4 +49,3 @@ const manifest = {
 };
 await writeFile(path.join(root, "public", "worlds", "generated-art-manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 console.log(`Processed ${assets.length} generated world assets.`);
-

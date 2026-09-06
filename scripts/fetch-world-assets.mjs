@@ -149,4 +149,3 @@ function digest(bytes) {
 function relative(file) {
   return path.relative(root, file).replaceAll("\\", "/");
 }
-

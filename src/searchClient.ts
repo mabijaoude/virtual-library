@@ -64,4 +64,3 @@ class LibrarySearchClient {
 }
 
 export const librarySearchClient = new LibrarySearchClient();
-
